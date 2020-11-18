@@ -1,7 +1,24 @@
+18.Nov.2020
+===========
+Adapted for AAPS version 2.7, still compatible with versions 2.5 and 2.6
+Major addition
+ - support autoISF for BG being consistantly too high or too low or rising for a longer time
+ - version selection "2.7" or "<2.7" as a what-if scenario
+ - can run on AAPS phone, too,  to give real time what-if hints
+ - on AAPS phone provide spoken alarms for "add'l carbs req" or "extra bolus proposed" from what-if alternative
+Added more values to list or plot, namely
+ - ISF
+ - range for BG being unchanged
+ - linear regression of recent BG
+ - several min and max values for time window in tab-file, e.g. for autosense or SMB
+Limitation
+ - the flowchart output for version 2.7 uses outdated row number references
+
+
 31.May 2020
 ===========
 Major addition
- - GUI front end to collect inputs and guide users who are less IT literate
+ - added GUI front end to collect inputs and guide users who are less IT literate
  - STAIR to define basal like time dependent variations
  - INTERPOL to define inter- and extrapolation in time dependent variations
 Minor addition
