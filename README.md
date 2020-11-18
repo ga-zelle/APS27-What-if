@@ -17,5 +17,5 @@ The main result in tabular and graphical output is the change in insulin require
 Related data like SGV, target, Autosens ratio etc. are also shown.
 
 A special output is the flowchart which helps to understand the logic flow through the loop. This is the 
-track which statements in "determineSB-basal" were executed and which not together with the reasoning 
-of those decisionslisted in the original code.
+track which statements in "determineSMB-basal" were executed and which not together with the reasoning 
+of those decisions as listed in the original java code.
