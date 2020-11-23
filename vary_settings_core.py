@@ -1213,8 +1213,8 @@ def XYplots(loopCount, head1, head2, entries) :
                     axin.plot(emulSMB,    loop_mills, linestyle='None',  marker='o', color='black', label='SMB, emulated')
                     axin.plot(origSMB,    loop_mills, linestyle='solid', marker='.', color='yellow',label='SMB, original')
                 if featured('basal') :
-                    axin.barh(y=loop_mills, height=thickness*2, width=emulBasal,     color='white', label='tempBasal, emulated', edgecolor='blue')
-                    axin.barh(y=loop_mills, height=thickness  , width=origBasal,     color='blue',  label='tempBasal, original')
+                    axin.barh(y=loop_mills, height=thickness*1.52, width=emulBasal,     color='white', label='tempBasal, emulated', edgecolor='blue')
+                    axin.barh(y=loop_mills, height=thickness*0.8 , width=origBasal,     color='blue',  label='tempBasal, original')
 
                 #axin.plot([0,0], [loop_mills[0],loop_mills[-1]], linestyle='dotted', color='black')  # grid line for insulin=0                
                 axin.legend(loc='lower right')
